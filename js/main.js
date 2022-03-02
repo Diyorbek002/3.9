@@ -12,7 +12,7 @@ elForm.addEventListener("submit" , function (evt){
     evt.preventDefault()
 
     if (elInput.value <= 0 || isNaN(elInput.value)){
-        elSpanMan.textContent = " 0 dan kotta son kriting"
+        elSpanMan.textContent = " Iltimos 0  dan katta raqam kiriting , yokida son kiriting"
    }
 
     else if (elInput.value % 2 == 0){
