@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1320px;
+    margin: 0;
+    padding: 0 80px;
+}
+
+.header__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header__desc{
+    font-size: 16px;
+}
+
+.header__input{
+    margin: 0 12px 0 12px;
+    border-radius: 5px;
+    border-color: rgb(150, 255, 159);
+    width: 25%;
+    height: 30PX;
+}
+
+.box__man{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: blueviolet;
+}
